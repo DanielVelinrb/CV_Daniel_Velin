@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Hernán Daniel Velin Aguilar</title>
 </head>
 <script>
@@ -24,10 +25,10 @@
             <div>
                 <img src="assets/fotografia.jpeg" alt="Fotografía Daniel Velin" tabindex="0" class="fotografia">
                 <h2 >Datos Personales</h2>
-                <p ><strong>Email:</strong> daniel.velin.2001@hotmail.com</p>
-                <p ><strong>Fecha de nacimiento:</strong> 05-08-2001</p>
-                <p ><strong>Nacionalidad:</strong> Ecuatoriano</p>
-                <p ><strong>Teléfono:</strong> +593 998090224</p>
+                <p ><strong>Email:</strong><br> daniel.velin.2001@hotmail.com</p>
+                <p ><strong>Fecha de nacimiento:</strong><br> 05-08-2001</p>
+                <p ><strong>Nacionalidad:</strong><br> Ecuatoriano</p>
+                <p ><strong>Teléfono:</strong><br> +593 998090224</p>
             </div>
             <div>
                 <h2>Enlaces a redes</h2>
@@ -56,21 +57,21 @@
         <section aria-labelledby="academic-background">
             <h2 id="academic-background" tabindex="0">Formación Académica</h2>
             <table style="border-collapse: collapse; width: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <thead>
-        <tr>
-            <th>Año</th>
-            <th>Título</th>
-            <th>Institución</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr style="transition: background-color 0.3s;">
-            <td>2019 - Actualidad</td>
-            <td>Ingeniería de Software</td>
-            <td>Escuela Politécnica Nacional</td>
-        </tr>
-    </tbody>
-</table>
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Título</th>
+                        <th>Institución</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr style="transition: background-color 0.3s;">
+                    <td>2019 - Actualidad</td>
+                    <td>Ingeniería de Software</td>
+                    <td>Escuela Politécnica Nacional</td>
+                </tr>
+            </tbody>
+            </table>
         </section>
         <section aria-labelledby="professional-experience">
             <h2 id="professional-experience">Experiencia Profesional</h2>
@@ -78,7 +79,7 @@
                 <thead>
                     <tr>
                         <th style="width: 19%;">Año</th>
-                        <th style="width: 16%;">Empresa</th>
+                        <th style="width: 14%;">Empresa</th>
                         <th style="width: 23%;">Puesto</th>
                         <th>Trabajo realizado</th>
                     </tr>
@@ -121,14 +122,15 @@
             </table>
         </section>
         
-        <section aria-labelledby="personal-video"></section>
+        <section aria-labelledby="personal-video">
             <h2 id="personal-video">Video de Presentación</h2>
-            <video controls style="margin: auto;">
-                <source src="assets/Presentacion.mp4" type="video/mp4" alt="Presentacion Daniel Velin">
-                <track src="path_to_your_subtitles.vtt" kind="subtitles" srclang="es" label="Español">
+            <video controls style="width: 100%; max-width: 600px; display: block; margin: auto; margin-top: -80px;">
+                <source src="assets/Presentacion.mp4" type="video/mp4">
+                <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default>
                 Tu navegador no soporta el elemento <code>video</code>.
             </video>
         </section>
+        
     </div>
 </body>
 </html>
