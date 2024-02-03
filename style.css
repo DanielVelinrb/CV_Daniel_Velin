@@ -16,6 +16,13 @@ body {
 .container.left {
     width: 20%;
     padding-left: 2%;
+    margin-left: -20px;
+    margin-top: -10px;
+    border-radius: 5%;
+    background-color: #e9e0c8;
+    color: black;
+    padding-bottom: 300px;
+
 }
 
 img, video {
@@ -36,7 +43,14 @@ table, th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #007bff;
+    color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+tr{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
 }
 
 a {
@@ -50,7 +64,6 @@ a {
     color: #666;
 }
 
-/* CSS para establecer los anchos de las columnas */
 .column-año {
     width: 20%;
 }
@@ -63,4 +76,18 @@ a {
     width: 40%;
 }
 
+.fotografia {
+    width: 250px;
+    height: 250px;
+    border-radius: 50% / 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  video {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 500px; 
+  }
 
